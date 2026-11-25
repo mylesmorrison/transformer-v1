@@ -1,0 +1,21 @@
+# virtual environment
+.venv/
+.venv.nosync/
+venv/
+
+# trained model weights (large, regenerate by running gpt.py)
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code Code Runner temp files
+tempCodeRunnerFile.py
+
+# macOS
+.DS_Store
